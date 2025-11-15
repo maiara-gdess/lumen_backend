@@ -1,0 +1,32 @@
+# Ignora ambientes virtuais e depend�ncias locais
+.venv/
+env/
+venv/
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora arquivos grandes de pacotes, datasets e bin�rios comuns
+*.sqlite3
+*.db
+*.h5
+*.pth
+*.ckpt
+*.pt
+*.onnx
+*.pb
+*.npy
+*.npz
+*.tar
+*.gz
+*.zip
+*.egg-info/
+*.whl
+
+# Ignora configura��es do VSCode
+.vscode/
+
+# Ignora arquivos do sistema e caches
+.DS_Store
+Thumbs.db
